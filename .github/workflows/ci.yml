@@ -1,0 +1,19 @@
+name: Flutter CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  ci:
+    uses: Keshab1997/flutter-builder/.github/workflows/flutter-build.yml@v1
+    with:
+      flutter-channel: stable
+      generate-android-platform: true
+      run-format-check: true
+      run-analyze: true
+      run-tests: true
+      build-apk: false
+      build-aab: false
