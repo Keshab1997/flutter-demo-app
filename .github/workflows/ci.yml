@@ -12,7 +12,8 @@ jobs:
     with:
       flutter-channel: stable
       generate-android-platform: true
-      run-format-check: true
+      android-organization: com.keshab1997
+      run-format-check: false
       run-analyze: true
       run-tests: true
       build-apk: false

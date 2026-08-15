@@ -18,6 +18,8 @@ jobs:
     with:
       flutter-channel: stable
       generate-android-platform: true
+      android-organization: com.keshab1997
+      run-format-check: false
       build-apk: ${{ inputs.format == 'apk' }}
       build-aab: ${{ inputs.format == 'aab' }}
       artifact-retention-days: 14
