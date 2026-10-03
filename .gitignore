@@ -9,3 +9,5 @@ android/app/upload-keystore.jks
 .idea/
 .vscode/
 .DS_Store
+# flutter-builder: see_screen.py downloads screenshots here
+.agent-screens/
